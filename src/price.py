@@ -8,10 +8,10 @@ class Price():
 
     def __identify_price(self, web_price):
         numeric_price = re.findall(r"\d+\.\d+", web_price)[0]
-        return float(price)
+        return float(numeric_price)
     
     def __identify_currency(self, web_price):
-        return re.sub('\d.*','', web_price)
+        return re.sub('\d.*','', web_price).strip()
 
     def get_price(self):
         return self.price

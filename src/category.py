@@ -4,7 +4,7 @@ class Category():
     id = 0
     def __init__(self, name, href=None):
         self.name = name.capitalize()
-        self.href = href
+        self.hrefs = set(href) if href else set()
         self.subcategories = {}
         self.products = {}
         self.id = Category.id 
@@ -16,8 +16,14 @@ class Category():
     def get_unique_name(self):
         return str(self.id) + self.name
     
-    def get_href(self):
-        return self.href
+    def get_href(self, single=True):
+        if single:
+            return self.hrefs[0]
+        else:
+            return self.hrefs
+
+    def add_href(self, href):
+        self.hrefs.add(href)
 
     def get_subcategories(self):
         return self.subcategories.values()

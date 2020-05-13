@@ -13,7 +13,7 @@ class Price():
     def __identify_currency(self, web_price):
         return re.sub('\d.*','', web_price).strip()
 
-    def get_price(self):
+    def get_numberic_price(self):
         return self.price
 
     def get_currency(self):

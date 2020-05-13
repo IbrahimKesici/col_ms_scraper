@@ -9,16 +9,21 @@
         "categoryId=": ""
     },
     "categories":{
-        "women": "SC_Level_1_1_menu",
-        "lingerie": "SC_Level_1_4772305_menu",
-        "beauty": "SC_Level_1_462464_menu",
-        "men": "SC_Level_1_586_menu",
-        "kids": "SC_Level_1_789_menu",
-        "home": "SC_Level_1_1107_menu",
-        "furniture": "SC_Level_1_16696340_menu",
-        "food": "SC_Level_1_14866033_menu",
-        "flowers": "SC_Level_1_16547523_menu",
-        "wine": "SC_Level_1_15447828_menu",
-        "hampers and gifts": "SC_Level_1_11563899_menu"
+        "Women": "SC_Level_1_1_menu",
+        "Lingerie": "SC_Level_1_4772305_menu",
+        "Beauty": "SC_Level_1_462464_menu",
+        "Men": "SC_Level_1_586_menu",
+        "Home": "SC_Level_1_1107_menu",
+        "Furniture": "SC_Level_1_16696340_menu",
+        "Food": "SC_Level_1_14866033_menu",
+        "Wine": "SC_Level_1_15447828_menu"
+    },
+    "currency": "£",
+    "tobeasked": {
+  
+
+        "Hampers & gifts": "SC_Level_1_11563899_menu",
+        "Flowers": "SC_Level_1_16547523_menu",
+        "Kids": "SC_Level_1_789_menu"
     }
 }

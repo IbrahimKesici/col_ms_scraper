@@ -1,29 +1,58 @@
 {
-    "base_url": "https://www.marksandspencer.com/",
-    "params": {
-        "catalogId=": "",
-        "beginIndex=": "",
-        "pageSize=": "",
-        "langId=": "",
-        "storeId=": "",
-        "categoryId=": ""
+    "M&S":{
+        "base_url": "https://www.marksandspencer.com/",
+        "params": {
+            "catalogId=": "",
+            "beginIndex=": "",
+            "pageSize=": "",
+            "langId=": "",
+            "storeId=": "",
+            "categoryId=": ""
+        },
+        "categories":{
+            "Women": "SC_Level_1_1_menu",
+            "Lingerie": "SC_Level_1_4772305_menu",
+            "Beauty": "SC_Level_1_462464_menu",
+            "Men": "SC_Level_1_586_menu",
+            "Home": "SC_Level_1_1107_menu",
+            "Furniture": "SC_Level_1_16696340_menu",
+            "Food": "SC_Level_1_14866033_menu",
+            "Wine": "SC_Level_1_15447828_menu"
+        },
+        "currency": "£",
+        "tobediscussed": {
+            "Hampers & gifts": "SC_Level_1_11563899_menu",
+            "Flowers": "SC_Level_1_16547523_menu",
+            "Kids": "SC_Level_1_789_menu"
+        }
     },
-    "categories":{
-        "Women": "SC_Level_1_1_menu",
-        "Lingerie": "SC_Level_1_4772305_menu",
-        "Beauty": "SC_Level_1_462464_menu",
-        "Men": "SC_Level_1_586_menu",
-        "Home": "SC_Level_1_1107_menu",
-        "Furniture": "SC_Level_1_16696340_menu",
-        "Food": "SC_Level_1_14866033_menu",
-        "Wine": "SC_Level_1_15447828_menu"
-    },
-    "currency": "£",
-    "tobeasked": {
-  
-
-        "Hampers & gifts": "SC_Level_1_11563899_menu",
-        "Flowers": "SC_Level_1_16547523_menu",
-        "Kids": "SC_Level_1_789_menu"
+    "Boots":{
+        "base_url": "https://www.boots.com/",
+        "params": {
+            "catalogId=": "",
+            "beginIndex=": "",
+            "pageSize=": "",
+            "langId=": "",
+            "storeId=": "",
+            "categoryId=": ""
+        },
+        "categories":{
+            "health-pharmacy" : "Health & Pharmacy",
+            "beauty": "Beauty & Skincare",
+            "fragrance": "Fragrance",
+            "baby-child": "Baby & Child",
+            "toiletries": "Toiletries",
+            "electrical": "Electrical",
+            "mens": "Men's",
+            "photo": "Photo",
+            "opticians": "Opticians",
+            "holidays": "Sun & Holiday",
+            "gift": "Gift",
+            "welness": "Wellness"
+        },
+        "currency": "£",
+        "tobediscussed": {
+           
+        }
     }
 }

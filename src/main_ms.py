@@ -5,7 +5,8 @@ from category import Category, Product
 
 def main():
 
-    config = read_json("ms_config")
+    config = read_json("ms_config")["M&S"]
+    print(config)
 
     web_tree = Tree()
     create_categories(web_tree, config)

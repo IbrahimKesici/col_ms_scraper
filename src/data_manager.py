@@ -10,14 +10,14 @@ def read_json(file_name, path= Path.cwd().parent.joinpath(r"config\\")):
 def write_to_json():
     pass
 
-def write_to_csv(file_name, tree, config=None):
+def write_to_csv(file_name, tree,  config=None):
     path = Path.cwd().parent.joinpath(r"data\\")
     columns = ["Category 1", "Category 2", "Category 3", "Product Description", "Price", "Currency"]
     df = pd.DataFrame(columns=columns)
 
     for category_name in config["categories"].keys():
         main_category =  tree.get_category_by_name(category_name)
-        if tree.contain_subcategory(main_category) > 0: 
+        if main_category and tree.contain_subcategory(main_category) > 0: 
             for subCategory in main_category.get_subcategories():
                 for subsubcategory in subCategory.get_subcategories():
                     for product in subsubcategory.get_products():

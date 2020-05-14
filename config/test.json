@@ -1,0 +1,62 @@
+{
+    "UK":{
+        "M&S":{
+            "base_url": "https://www.marksandspencer.com/MSFindItemsByKeyword?searchTerm=",
+            "categories": {
+                "clothing and footwear":[
+                    "Cotton polo shirt, white, short sleeves",
+                    "1 Men's blue jeans",
+                    "2 Men's blue jeans",
+                    "3 Men's blue jeans",
+                    "Men's classic cotton socks",
+                    "1 Men's two piece business suit",
+                    "2 Men's two piece business suit",
+                    "3 Men's two piece business suit",
+                    "1 Men's business trousers",
+                    "2 Men's business trousers",
+                    "3 Men's business trousers",
+                    "1 Men's business shirt, oxford type, white cotton",
+                    "2 Men's business shirt",
+                    "3 Men's business shirt",
+                    "1 Men's leather black shoes (for business use)",
+                    "2 Men's black shoes",
+                    "3 Men's  black shoes",
+                    "1 Women's 2 piece business suit",
+                    "2 Women's  2-piece business suit",
+                    "3 Women's  2-piece business suit",
+                    "1 Women's leather black shoes (for business use)",
+                    "2 Women's black shoes",
+                    "3 Women's black shoes",
+                    "Women's business shirt, cotton",
+                    "Women's underwear, bra, cotton, (no lace)",
+                    "1 Women's stockings or tights, 20 DEN; plain, (no patterns)",
+                    "2 Women's stockings or tights, 20 DEN",
+                    "3 Women's stockings or tights, 20 DEN",
+                    "1 Women's  business skirt or trousers",
+                    "2 Women's  business skirt or trousers",
+                    "3 Women's  business skirt or trousers",
+                    "1 Women's jeans",
+                    "2 Women's jeans",
+                    "3 Women's jeans",
+                    "Boys' cotton school shirt or polo",
+                    "1 Children's  jeans",
+                    "2 Children's jeans",
+                    "3 Children's jeans",
+                    "Boys' blazer",
+                    "Girls' dress",
+                    "1 Boy's athletic shoes",
+                    "2 Boy's athletic shoes",
+                    "3 Boy's athletic shoes",
+                    "1 Children's underwear, cotton briefs",
+                    "2 Children's underwear, cotton briefs", 
+                    "3 Children's underwear, cotton briefs"
+                ]
+            },
+            "todo":[
+                
+            ]
+        }
+    }
+}
+
+

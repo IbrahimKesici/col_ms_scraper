@@ -1,7 +1,7 @@
-from src.product import Product
 
-price = "£19.00"
-title = "New Product"
-
-product = Product(title, price)
-print(product)
+test_list = ["a", "b", "c"]
+print(len(test_list))
+for i, key in enumerate(test_list):
+    print(i)
+    if i == len(test_list):
+        print("x")
